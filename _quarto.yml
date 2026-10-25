@@ -1,0 +1,36 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Grace Sen | Portfolio"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: dashboard.qmd
+        text: CEP Dashboard
+      - href: styling.qmd
+        text: CSS/SCSS
+      - href: listings.qmd
+        text: Listings
+    right:
+      - icon: github
+        href: https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+
+  page-footer:
+    center: "© 2026 Grace Sen"
+
+format:
+  html:
+    theme:
+      - cosmo
+      - styles.scss
+    toc: true
+    toc-depth: 3
+    code-fold: true
+    code-tools: true
+    code-overflow: wrap
+
+execute:
+  freeze: auto
