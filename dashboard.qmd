@@ -1,3 +1,113 @@
 ---
-title: "dashborad"
+title: "Avenue Shabu CEP Dashboard"
+format:
+  dashboard:
+    orientation: rows
+    scrolling: true
+    theme: cosmo
+execute:
+  echo: false
+  warning: false
+  message: false
 ---
+
+```{r}
+library(dplyr)
+library(ggplot2)
+library(scales)
+library(knitr)
+
+# Illustrative data—not actual Avenue Shabu data
+promotion_data <- data.frame(
+  campaign = c(
+    "BOGO Offer",
+    "Influencer Campaign",
+    "Holiday Promotion",
+    "No Promotion"
+  ),
+  revenue = c(24500, 22000, 27000, 19000),
+  food_cost = c(7800, 7000, 8800, 6000),
+  labor_cost = c(6500, 6200, 7200, 5800),
+  marketing_cost = c(1800, 1500, 2200, 0)
+) |>
+  mutate(
+    contribution_margin =
+      revenue - food_cost - labor_cost - marketing_cost
+  )
+```
+
+## Row {height="25%"}
+
+```{r}
+#| content: valuebox
+list(
+  title = "Total Revenue",
+  value = dollar(sum(promotion_data$revenue)),
+  icon = "cash-stack",
+  color = "primary"
+)
+```
+
+```{r}
+#| content: valuebox
+list(
+  title = "Average Revenue",
+  value = dollar(mean(promotion_data$revenue)),
+  icon = "bar-chart",
+  color = "success"
+)
+```
+
+```{r}
+#| content: valuebox
+list(
+  title = "Contribution Margin",
+  value = dollar(sum(promotion_data$contribution_margin)),
+  icon = "graph-up-arrow",
+  color = "warning"
+)
+```
+
+## Row {height="75%"}
+
+### Revenue by Campaign
+
+```{r}
+ggplot(
+  promotion_data,
+  aes(x = reorder(campaign, revenue), y = revenue, fill = campaign)
+) +
+  geom_col(show.legend = FALSE) +
+  coord_flip() +
+  scale_y_continuous(labels = dollar) +
+  labs(
+    x = NULL,
+    y = "Revenue",
+    caption = "Illustrative data only"
+  ) +
+  theme_minimal()
+```
+
+### Campaign Summary
+
+```{r}
+promotion_data |>
+  select(campaign, revenue, marketing_cost, contribution_margin) |>
+  mutate(
+    revenue = dollar(revenue),
+    marketing_cost = dollar(marketing_cost),
+    contribution_margin = dollar(contribution_margin)
+  ) |>
+  kable(
+    col.names = c(
+      "Campaign",
+      "Revenue",
+      "Marketing Cost",
+      "Contribution Margin"
+    )
+  )
+```
+
+::: callout-note
+The values shown in this dashboard are illustrative. They are not actual Avenue Shabu financial results.
+:::

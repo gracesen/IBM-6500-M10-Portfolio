@@ -1,3 +1,13 @@
 ---
-title: "listings"
+title: "Projects and Assignments"
+listing:
+  contents: projects
+  type: grid
+  sort: "date desc"
+  fields: [date, title, description, categories]
+  categories: true
+  sort-ui: true
+  filter-ui: true
 ---
+
+This page organizes selected assignments and projects from the MSDM program.
