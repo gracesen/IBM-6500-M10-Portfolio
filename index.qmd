@@ -1,24 +1,39 @@
 ---
-title: "Grace Sen"
-subtitle: "MSDM Student and Aspiring Marketing Data Analyst"
-page-layout: full
+page-layout: article
+toc: true
+toc-title: "On this page"
 ---
 
-![](images/grace-photo.png)
+# Hi, I’m Grace Sen {.hero-title}
+
+::::: hero-grid
+::: hero-photo
+![](images/grace-photo.png){.profile-photo fig-alt="Professional photo of Grace Sen"}
+:::
+
+::: hero-introduction
+I am a **Master of Science in Digital Marketing student** at Cal Poly Pomona. My interests include marketing analytics, customer insights, digital strategy, and data visualization.
+
+My goal is to use data to better understand customer behavior and support effective marketing decisions.
+:::
+:::::
 
 ## About Me
 
-I am a Master of Science in Digital Marketing student at Cal Poly Pomona. My interests include marketing analytics, customer insights, digital strategy, and data visualization.
+I have experience in e-commerce, social media marketing, content creation, marketing research, and data analytics. Through the MSDM program, I am developing practical skills in R, SQL, survey research, digital analytics, and data visualization.
 
-## Career Aspirations
+## What I Do
 
-My goal is to work in a marketing analytics role where I can use data to understand customer behavior and support better business decisions.
+- **Marketing Analytics:** Analyze campaign and customer data to support marketing decisions.
+- **Data Visualization:** Create reports and dashboards using R, Quarto, and Looker Studio.
+- **Customer Research:** Design surveys and study customer behavior using Qualtrics.
+- **Digital Marketing:** Work with social media, content, e-commerce, and digital strategy.
 
 ## Skills
 
 - R and Quarto
 - SQL and BigQuery
-- Qualtrics survey design
+- Qualtrics
 - GA4 and Looker Studio
 - Marketing analytics
 - Customer research

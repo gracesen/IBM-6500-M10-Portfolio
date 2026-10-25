@@ -2,16 +2,16 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Grace Sen",
+    "title": "",
     "section": "",
-    "text": "I am a Master of Science in Digital Marketing student at Cal Poly Pomona. My interests include marketing analytics, customer insights, digital strategy, and data visualization."
+    "text": "Code"
   },
   {
     "objectID": "index.html#about-me",
     "href": "index.html#about-me",
-    "title": "Grace Sen",
+    "title": "",
     "section": "About Me",
-    "text": "About Me\nI am a Master of Science in Digital Marketing student at Cal Poly Pomona. My interests include marketing analytics, customer insights, digital strategy, and data visualization."
+    "text": "About Me\nI have experience in e-commerce, social media marketing, content creation, marketing research, and data analytics. Through the MSDM program, I am developing practical skills in R, SQL, survey research, digital analytics, and data visualization."
   },
   {
     "objectID": "index.html#career-aspirations",
@@ -23,14 +23,14 @@
   {
     "objectID": "index.html#skills",
     "href": "index.html#skills",
-    "title": "Grace Sen",
+    "title": "",
     "section": "Skills",
-    "text": "Skills\n\nR and Quarto\nSQL and BigQuery\nQualtrics survey design\nGA4 and Looker Studio\nMarketing analytics\nCustomer research\nData visualization"
+    "text": "Skills\n\nR and Quarto\nSQL and BigQuery\nQualtrics\nGA4 and Looker Studio\nMarketing analytics\nCustomer research\nData visualization"
   },
   {
     "objectID": "index.html#education",
     "href": "index.html#education",
-    "title": "Grace Sen",
+    "title": "",
     "section": "Education",
     "text": "Education\nMaster of Science in Digital Marketing\nCal Poly Pomona, expected 2027\nBachelor’s Degree in International Relations\nSaigon University, Vietnam"
   },
@@ -117,5 +117,12 @@
     "title": "Using CSS and SCSS",
     "section": "CSS Used",
     "text": "CSS Used\n.highlight-box {\n  background-color: #f8eeee;\n  border-left: 5px solid #7a263a;\n  border-radius: 6px;\n  padding: 1rem;\n}\nUsing a separate CSS file makes it easier to change the appearance of the entire website without editing every page."
+  },
+  {
+    "objectID": "index.html#what-i-do",
+    "href": "index.html#what-i-do",
+    "title": "",
+    "section": "What I Do",
+    "text": "What I Do\n\nMarketing Analytics: Analyze campaign and customer data to support marketing decisions.\nData Visualization: Create reports and dashboards using R, Quarto, and Looker Studio.\nCustomer Research: Design surveys and study customer behavior using Qualtrics.\nDigital Marketing: Work with social media, content, e-commerce, and digital strategy."
   }
 ]
