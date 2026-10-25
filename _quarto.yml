@@ -16,7 +16,7 @@ website:
         text: Listings
     right:
       - icon: github
-        href: https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+        href: https://github.com/gracesen/IBM-6500-M10-Portfolio
 
   page-footer:
     center: "© 2026 Grace Sen"
