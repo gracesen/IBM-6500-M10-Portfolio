@@ -1,3 +1,23 @@
 ---
-title: "M10-submission"
+title: "M10 – Quarto Website and Dashboard"
+author: "Grace Sen"
+date: today
+format:
+  html:
+    toc: true
+    theme: cosmo
+    embed-resources: true
+editor: visual
 ---
+
+# Assignment Summary
+
+For this assignment, I created a Quarto portfolio website that includes a personal home page, an MSDM CEP dashboard, a CSS demonstration, and a project listings page.
+
+# Published Website
+
+[View my Quarto portfolio website](https://gracesen.github.io/IBM-6500-M10-Portfolio/)
+
+# GitHub Repository
+
+[View the website source files on GitHub](https://github.com/gracesen/IBM-6500-M10-Portfolio)

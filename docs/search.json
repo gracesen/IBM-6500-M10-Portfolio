@@ -82,5 +82,12 @@
     "title": "Qualtrics Survey Design",
     "section": "",
     "text": "In this project, I created and customized a Qualtrics survey. I applied survey flow, response validation, embedded data, and question logic."
+  },
+  {
+    "objectID": "M10-submission.html",
+    "href": "M10-submission.html",
+    "title": "M10 – Quarto Website and Dashboard",
+    "section": "",
+    "text": "Assignment Summary\nFor this assignment, I created a Quarto portfolio website that includes a personal home page, an MSDM CEP dashboard, a CSS demonstration, and a project listings page.\n\n\nPublished Website\nView my Quarto portfolio website\n\n\nGitHub Repository\nView the website source files on GitHub"
   }
 ]
