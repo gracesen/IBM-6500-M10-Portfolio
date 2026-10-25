@@ -89,5 +89,33 @@
     "title": "M10 – Quarto Website and Dashboard",
     "section": "",
     "text": "Assignment Summary\nFor this assignment, I created a Quarto portfolio website that includes a personal home page, an MSDM CEP dashboard, a CSS demonstration, and a project listings page.\n\n\nPublished Website\nView my Quarto portfolio website\n\n\nGitHub Repository\nView the website source files on GitHub"
+  },
+  {
+    "objectID": "styling.html",
+    "href": "styling.html",
+    "title": "Using CSS and SCSS",
+    "section": "",
+    "text": "CSS controls the visual appearance of a website, including its colors, fonts, spacing, and borders. SCSS provides additional features, such as variables and reusable styling rules.\nFor this website, I used a separate CSS file to keep the colors and formatting consistent across the different pages."
+  },
+  {
+    "objectID": "styling.html#what-i-learned",
+    "href": "styling.html#what-i-learned",
+    "title": "Using CSS and SCSS",
+    "section": "",
+    "text": "CSS controls the visual appearance of a website, including its colors, fonts, spacing, and borders. SCSS provides additional features, such as variables and reusable styling rules.\nFor this website, I used a separate CSS file to keep the colors and formatting consistent across the different pages."
+  },
+  {
+    "objectID": "styling.html#example",
+    "href": "styling.html#example",
+    "title": "Using CSS and SCSS",
+    "section": "Example",
+    "text": "Example\n\nThis information box is styled by the styles.css file. The background color, border, spacing, and rounded corners come from a custom CSS rule."
+  },
+  {
+    "objectID": "styling.html#css-used",
+    "href": "styling.html#css-used",
+    "title": "Using CSS and SCSS",
+    "section": "CSS Used",
+    "text": "CSS Used\n.highlight-box {\n  background-color: #f8eeee;\n  border-left: 5px solid #7a263a;\n  border-radius: 6px;\n  padding: 1rem;\n}\nUsing a separate CSS file makes it easier to change the appearance of the entire website without editing every page."
   }
 ]

@@ -4,6 +4,8 @@ subtitle: "MSDM Student and Aspiring Marketing Data Analyst"
 page-layout: full
 ---
 
+![](images/grace-photo.png)
+
 ## About Me
 
 I am a Master of Science in Digital Marketing student at Cal Poly Pomona. My interests include marketing analytics, customer insights, digital strategy, and data visualization.
