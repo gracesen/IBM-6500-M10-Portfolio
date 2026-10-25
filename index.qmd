@@ -1,11 +1,31 @@
 ---
-title: "M10-Portfolio"
+title: "Grace Sen"
+subtitle: "MSDM Student and Aspiring Marketing Data Analyst"
+page-layout: full
 ---
 
-This is a Quarto website.
+## About Me
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+I am a Master of Science in Digital Marketing student at Cal Poly Pomona. My interests include marketing analytics, customer insights, digital strategy, and data visualization.
 
-```{r}
-1 + 1
-```
+## Career Aspirations
+
+My goal is to work in a marketing analytics role where I can use data to understand customer behavior and support better business decisions.
+
+## Skills
+
+- R and Quarto
+- SQL and BigQuery
+- Qualtrics survey design
+- GA4 and Looker Studio
+- Marketing analytics
+- Customer research
+- Data visualization
+
+## Education
+
+**Master of Science in Digital Marketing**\
+Cal Poly Pomona, expected 2027
+
+**Bachelor’s Degree in International Relations**\
+Saigon University, Vietnam
