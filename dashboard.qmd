@@ -5,6 +5,7 @@ format:
     orientation: rows
     scrolling: true
     theme: cosmo
+    css: styles.css
 execute:
   echo: false
   warning: false
@@ -44,7 +45,7 @@ list(
   title = "Total Revenue",
   value = dollar(sum(promotion_data$revenue)),
   icon = "cash-stack",
-  color = "primary"
+  color = "#6f263d"
 )
 ```
 
@@ -54,7 +55,7 @@ list(
   title = "Average Revenue",
   value = dollar(mean(promotion_data$revenue)),
   icon = "bar-chart",
-  color = "success"
+  color = "#b88632"
 )
 ```
 
@@ -64,7 +65,7 @@ list(
   title = "Contribution Margin",
   value = dollar(sum(promotion_data$contribution_margin)),
   icon = "graph-up-arrow",
-  color = "warning"
+  color = "#8f4b5f"
 )
 ```
 
@@ -80,6 +81,14 @@ ggplot(
   geom_col(show.legend = FALSE) +
   coord_flip() +
   scale_y_continuous(labels = dollar) +
+  scale_fill_manual(
+    values = c(
+      "BOGO Offer" = "#8f4b5f",
+      "Influencer Campaign" = "#b88632",
+      "Holiday Promotion" = "#6f263d",
+      "No Promotion" = "#d9c3b8"
+    )
+  ) +
   labs(
     x = NULL,
     y = "Revenue",

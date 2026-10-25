@@ -1,73 +1,10 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "",
-    "section": "",
-    "text": "Code"
-  },
-  {
-    "objectID": "index.html#about-me",
-    "href": "index.html#about-me",
-    "title": "",
-    "section": "About Me",
-    "text": "About Me\nI have experience in e-commerce, social media marketing, content creation, marketing research, and data analytics. Through the MSDM program, I am developing practical skills in R, SQL, survey research, digital analytics, and data visualization."
-  },
-  {
-    "objectID": "index.html#career-aspirations",
-    "href": "index.html#career-aspirations",
-    "title": "Grace Sen",
-    "section": "Career Aspirations",
-    "text": "Career Aspirations\nMy goal is to work in a marketing analytics role where I can use data to understand customer behavior and support better business decisions."
-  },
-  {
-    "objectID": "index.html#skills",
-    "href": "index.html#skills",
-    "title": "",
-    "section": "Skills",
-    "text": "Skills\n\nR and Quarto\nSQL and BigQuery\nQualtrics\nGA4 and Looker Studio\nMarketing analytics\nCustomer research\nData visualization"
-  },
-  {
-    "objectID": "index.html#education",
-    "href": "index.html#education",
-    "title": "",
-    "section": "Education",
-    "text": "Education\nMaster of Science in Digital Marketing\nCal Poly Pomona, expected 2027\nBachelor’s Degree in International Relations\nSaigon University, Vietnam"
-  },
-  {
     "objectID": "listings.html",
     "href": "listings.html",
     "title": "Projects and Assignments",
     "section": "",
     "text": "This page organizes selected assignments and projects from the MSDM program.\n\n\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\nAvenue Shabu CEP\n\n\n\nCEP\n\nMarketing Analytics\n\nCustomer Insights\n\n\n\nA client project focused on customer experience, marketing, and promotion performance.\n\n\n\nOct 20, 2026\n\n\n\n\n\n\n\n\n\n\nIntroduction to BigQuery\n\n\n\nSQL\n\nBigQuery\n\nData Analysis\n\n\n\nPractice using SQL queries to explore and summarize data.\n\n\n\nOct 3, 2026\n\n\n\n\n\n\n\n\n\n\nQualtrics Survey Design\n\n\n\nQualtrics\n\nSurvey Research\n\n\n\nA survey project using validation, survey flow, and customized response options.\n\n\n\nSep 29, 2026\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "projects/bigquery-project.html",
-    "href": "projects/bigquery-project.html",
-    "title": "Introduction to BigQuery",
-    "section": "",
-    "text": "This project introduced me to writing SQL queries in Google BigQuery and interpreting query results."
-  },
-  {
-    "objectID": "projects/bigquery-project.html#project-overview",
-    "href": "projects/bigquery-project.html#project-overview",
-    "title": "Introduction to BigQuery",
-    "section": "",
-    "text": "This project introduced me to writing SQL queries in Google BigQuery and interpreting query results."
-  },
-  {
-    "objectID": "projects/cep-project.html",
-    "href": "projects/cep-project.html",
-    "title": "Avenue Shabu CEP",
-    "section": "",
-    "text": "This project examines how Avenue Shabu can use customer and marketing data to support sales growth and improve marketing decisions."
-  },
-  {
-    "objectID": "projects/cep-project.html#project-overview",
-    "href": "projects/cep-project.html#project-overview",
-    "title": "Avenue Shabu CEP",
-    "section": "",
-    "text": "This project examines how Avenue Shabu can use customer and marketing data to support sales growth and improve marketing decisions."
   },
   {
     "objectID": "projects/qualtrics-project.html",
@@ -84,11 +21,74 @@
     "text": "In this project, I created and customized a Qualtrics survey. I applied survey flow, response validation, embedded data, and question logic."
   },
   {
+    "objectID": "projects/cep-project.html",
+    "href": "projects/cep-project.html",
+    "title": "Avenue Shabu CEP",
+    "section": "",
+    "text": "This project examines how Avenue Shabu can use customer and marketing data to support sales growth and improve marketing decisions."
+  },
+  {
+    "objectID": "projects/cep-project.html#project-overview",
+    "href": "projects/cep-project.html#project-overview",
+    "title": "Avenue Shabu CEP",
+    "section": "",
+    "text": "This project examines how Avenue Shabu can use customer and marketing data to support sales growth and improve marketing decisions."
+  },
+  {
     "objectID": "M10-submission.html",
     "href": "M10-submission.html",
     "title": "M10 – Quarto Website and Dashboard",
     "section": "",
     "text": "Assignment Summary\nFor this assignment, I created a Quarto portfolio website that includes a personal home page, an MSDM CEP dashboard, a CSS demonstration, and a project listings page.\n\n\nPublished Website\nView my Quarto portfolio website\n\n\nGitHub Repository\nView the website source files on GitHub"
+  },
+  {
+    "objectID": "projects/bigquery-project.html",
+    "href": "projects/bigquery-project.html",
+    "title": "Introduction to BigQuery",
+    "section": "",
+    "text": "This project introduced me to writing SQL queries in Google BigQuery and interpreting query results."
+  },
+  {
+    "objectID": "projects/bigquery-project.html#project-overview",
+    "href": "projects/bigquery-project.html#project-overview",
+    "title": "Introduction to BigQuery",
+    "section": "",
+    "text": "This project introduced me to writing SQL queries in Google BigQuery and interpreting query results."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "",
+    "section": "",
+    "text": "Code"
+  },
+  {
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
+    "title": "",
+    "section": "About Me",
+    "text": "About Me\nI have experience in e-commerce, social media marketing, marketing research, and data analytics.\nThrough the MSDM program, I am developing practical skills in R, SQL, survey research, digital analytics, and data visualization."
+  },
+  {
+    "objectID": "index.html#what-i-do",
+    "href": "index.html#what-i-do",
+    "title": "",
+    "section": "What I Do",
+    "text": "What I Do\nMarketing Analytics: Analyze campaign and customer data to support marketing decisions.\nData Visualization: Create reports and dashboards using R, Quarto, and Looker Studio.\nCustomer Research: Design surveys and study customer behavior using Qualtrics.\nDigital Marketing: Work with social media, content, e-commerce, and digital strategy."
+  },
+  {
+    "objectID": "index.html#skills",
+    "href": "index.html#skills",
+    "title": "",
+    "section": "Skills",
+    "text": "Skills\nR and Quarto\nSQL and BigQuery\nQualtrics\nGA4 and Looker Studio\nMarketing analytics\nCustomer research\nData visualization"
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "",
+    "section": "Education",
+    "text": "Education\nMaster of Science in Digital Marketing\nCal Poly Pomona, expected 2027\nBachelor’s Degree in International Relations\nSaigon University, Vietnam"
   },
   {
     "objectID": "styling.html",
@@ -119,10 +119,24 @@
     "text": "CSS Used\n.highlight-box {\n  background-color: #f8eeee;\n  border-left: 5px solid #7a263a;\n  border-radius: 6px;\n  padding: 1rem;\n}\nUsing a separate CSS file makes it easier to change the appearance of the entire website without editing every page."
   },
   {
-    "objectID": "index.html#what-i-do",
-    "href": "index.html#what-i-do",
-    "title": "",
-    "section": "What I Do",
-    "text": "What I Do\n\nMarketing Analytics: Analyze campaign and customer data to support marketing decisions.\nData Visualization: Create reports and dashboards using R, Quarto, and Looker Studio.\nCustomer Research: Design surveys and study customer behavior using Qualtrics.\nDigital Marketing: Work with social media, content, e-commerce, and digital strategy."
+    "objectID": "dashboard.html",
+    "href": "dashboard.html",
+    "title": "Avenue Shabu CEP Dashboard",
+    "section": "",
+    "text": "$title\n[1] \"Total Revenue\"\n\n$value\n[1] \"$92,500\"\n\n$icon\n[1] \"cash-stack\"\n\n$color\n[1] \"#6f263d\"\n\n\n\n\n$title\n[1] \"Average Revenue\"\n\n$value\n[1] \"$23,125\"\n\n$icon\n[1] \"bar-chart\"\n\n$color\n[1] \"#b88632\"\n\n\n\n\n$title\n[1] \"Contribution Margin\"\n\n$value\n[1] \"$31,700\"\n\n$icon\n[1] \"graph-up-arrow\"\n\n$color\n[1] \"#8f4b5f\""
+  },
+  {
+    "objectID": "dashboard.html#row",
+    "href": "dashboard.html#row",
+    "title": "Avenue Shabu CEP Dashboard",
+    "section": "",
+    "text": "$title\n[1] \"Total Revenue\"\n\n$value\n[1] \"$92,500\"\n\n$icon\n[1] \"cash-stack\"\n\n$color\n[1] \"#6f263d\"\n\n\n\n\n$title\n[1] \"Average Revenue\"\n\n$value\n[1] \"$23,125\"\n\n$icon\n[1] \"bar-chart\"\n\n$color\n[1] \"#b88632\"\n\n\n\n\n$title\n[1] \"Contribution Margin\"\n\n$value\n[1] \"$31,700\"\n\n$icon\n[1] \"graph-up-arrow\"\n\n$color\n[1] \"#8f4b5f\""
+  },
+  {
+    "objectID": "dashboard.html#row-1",
+    "href": "dashboard.html#row-1",
+    "title": "Avenue Shabu CEP Dashboard",
+    "section": "Row",
+    "text": "Row\n\nRevenue by Campaign\n\n\n\n\n\n\n\n\n\n\n\nCampaign Summary\n\n\n\n\n\nCampaign\nRevenue\nMarketing Cost\nContribution Margin\n\n\n\n\nBOGO Offer\n$24,500\n$1,800\n$8,400\n\n\nInfluencer Campaign\n$22,000\n$1,500\n$7,300\n\n\nHoliday Promotion\n$27,000\n$2,200\n$8,800\n\n\nNo Promotion\n$19,000\n$0\n$7,200\n\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nThe values shown in this dashboard are illustrative. They are not actual Avenue Shabu financial results."
   }
 ]

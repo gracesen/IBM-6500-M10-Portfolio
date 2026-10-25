@@ -36,7 +36,7 @@ body {
 
 /* ---------- Introduction ---------- */
 
-.hero-title {
+h1.hero-title {
   color: var(--primary-color);
   font-size: 2.7rem;
   font-weight: 700;
@@ -133,4 +133,131 @@ strong {
     width: 220px !important;
     height: 220px !important;
   }
+}
+
+/* ---------- Typography correction ---------- */
+
+body {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+/* Reset the main section so body text stays normal */
+section.hero-title {
+  color: var(--text-color);
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+/* Only the main page title should be large and bold */
+h1.hero-title {
+  color: var(--primary-color);
+  font-size: 2.25rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 1.75rem;
+}
+
+/* Introduction paragraph */
+.hero-introduction,
+.hero-introduction p {
+  color: var(--text-color);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.7;
+}
+
+/* Normal body paragraphs and lists */
+main p,
+main li {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+/* Section headings remain bold */
+h2 {
+  font-size: 1.65rem;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+/* Bold words should remain bold without becoming oversized */
+strong {
+  font-size: inherit;
+  font-weight: 700;
+}
+
+/* ---------- Content alignment ---------- */
+
+main,
+main section,
+main p,
+main ul,
+main li,
+main h2,
+main h3 {
+  text-align: left !important;
+}
+
+/* Restore normal bullet-list spacing */
+main ul {
+  display: block;
+  margin-left: 0;
+  padding-left: 1.5rem;
+}
+
+main li {
+  margin-bottom: 0.4rem;
+}
+
+/* Keep only the photo centered inside its column */
+.hero-photo {
+  display: flex;
+  justify-content: center;
+}
+
+/* ---------- Dashboard styling ---------- */
+
+.quarto-dashboard {
+  background-color: var(--light-color);
+}
+
+.quarto-dashboard .card {
+  border: 1px solid var(--soft-color);
+  border-radius: 8px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.07);
+}
+
+.quarto-dashboard .card-header {
+  color: var(--primary-color);
+  font-weight: 700;
+}
+
+.quarto-dashboard .callout-note {
+  border-left-color: var(--secondary-color);
+}
+
+.quarto-dashboard table thead {
+  color: var(--primary-color);
+}
+
+/* ---------- White value-box text and icons ---------- */
+
+.quarto-dashboard .bslib-value-box,
+.quarto-dashboard .bslib-value-box * {
+  color: #ffffff !important;
+}
+
+.quarto-dashboard .bslib-value-box svg {
+  fill: #ffffff !important;
+}
+
+.quarto-dashboard .bslib-value-box .value-box-title,
+.quarto-dashboard .bslib-value-box .value-box-value {
+  color: #ffffff !important;
 }
